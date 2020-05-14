@@ -1,13 +1,20 @@
 {
   "name": "loqate",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "prebuild": "yarn clean",
+    "build": "tsc",
+    "prepublish": "yarn build"
+  },
   "files": [
     "lib/**/*"
   ],
   "license": "MIT",
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "typescript": "^3.9.2"
   }
 }
