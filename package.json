@@ -1,11 +1,10 @@
 {
   "name": "loqate",
-  "version": "1.0.7",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "version": "1.0.8",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "index.d.ts",
-    "index.js"
+    "lib/**/*"
   ],
   "license": "MIT",
   "devDependencies": {
