@@ -1,0 +1,14 @@
+{
+  "name": "loqate",
+  "version": "1.0.1",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
+}
