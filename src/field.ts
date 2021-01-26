@@ -9,7 +9,7 @@ export enum FieldMode {
 
 export interface Field {
   element: string;
-  field: string;
+  field?: string;
   mode?: FieldMode
 }
 

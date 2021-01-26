@@ -17,5 +17,6 @@ export declare const Loqate: {
 export * from './controls';
 export * from './field';
 export * from './options';
+export * from './types';
 
 export default window.loqate;
